@@ -38,13 +38,13 @@ export default function Home() {
       <section className="text-black py-16 px-4 hidden">
         <div className="w-full mx-auto max-w-screen-xl flex flex-col gap-8">
           <h2>Welcome to the Lending Hub of Kirill Ayzenberg</h2>
-          Kirill Ayzenberg isn’t just a mortgage lender—he’s a reliable partner in one of the most critical financial decisions of your life. His homepage serves as both a resource and a reflection of his commitment to transparency, strategy, and service.
+          Kirill Ayzenberg isn&apos;t just a mortgage lender—he&apos;s a reliable partner in one of the most critical financial decisions of your life. His homepage serves as both a resource and a reflection of his commitment to transparency, strategy, and service.
 
           <h2>Meet Kirill Ayzenberg: Mortgage Expertise Backed by Results</h2>
           With years of experience in residential and commercial lending, Kirill b rings an analytical mindset and unmatched dedication to helping clients navigate the complex lending landscape. His track record spans hundreds of successful closings and client success stories.
 
-          <h2>Kirill Ayzenberg's Mortgage Solutions Tailored for You</h2>
-          Whether you're a first-time homebuyer, a real estate investor, or looking to refinance, Kirill crafts financing strategies that align with your goals. His services include pre-approvals, home purchase loans, refinancing, and rate shopping guidance.
+          <h2>Kirill Ayzenberg&apos;s Mortgage Solutions Tailored for You</h2>
+          Whether you&apos;re a first-time homebuyer, a real estate investor, or looking to refinance, Kirill crafts financing strategies that align with your goals. His services include pre-approvals, home purchase loans, refinancing, and rate shopping guidance.
 
           <h2>Why Clients Trust Kirill Ayzenberg (Kirk Ayzenberg)</h2>
           - Fast approvals and personalized consultation
