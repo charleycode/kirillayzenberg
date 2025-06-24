@@ -40,7 +40,7 @@ export default function Home() {
           <h2>Welcome to the Lending Hub of Kirill Ayzenberg</h2>
           Kirill Ayzenberg isn’t just a mortgage lender—he’s a reliable partner in one of the most critical financial decisions of your life. His homepage serves as both a resource and a reflection of his commitment to transparency, strategy, and service.
 
-          <h2>Meet Kirill: Mortgage Expertise Backed by Results</h2>
+          <h2>Meet Kirill Ayzenberg: Mortgage Expertise Backed by Results</h2>
           With years of experience in residential and commercial lending, Kirill b rings an analytical mindset and unmatched dedication to helping clients navigate the complex lending landscape. His track record spans hundreds of successful closings and client success stories.
 
           <h2>Kirill Ayzenberg's Mortgage Solutions Tailored for You</h2>
