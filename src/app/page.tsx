@@ -14,7 +14,7 @@ export default function Home() {
         <div className="w-full px-4 mx-auto max-w-screen-xl py-16">
           <div className="flex flex-col md:flex-row items-center gap-8 border-y-2">
               <div className="w-1/2">
-              <h1 className="lg:text-6xl px-6">Kirill Ayzenberg Mortgage Lender - Kirill Ayzenberg LLC23</h1>
+              <h1 className="lg:text-6xl px-6">Kirill Ayzenberg Mortgage Lender - Kirill Ayzenberg LLC3</h1>
               <p className="text-xl px-6 mt-4">
                 Who is Kirill Ayzenberg and what is his role in the mortgage lending industry?
                 What services or differentiators make Kirill stand out in a competitive mortgage market?
