@@ -1,0 +1,24 @@
+User-agent: *
+
+# Block internal Next.js build files
+Disallow: /_next/
+
+# Block any backend API routes (if applicable)
+Disallow: /api/
+Disallow: /server/
+
+# Optional: block private or query-heavy pages
+Disallow: /private/
+Disallow: /*?*
+
+# Allow static assets
+Allow: /_next/static/*.js
+Allow: /_next/static/*.css
+Allow: /_next/image
+Allow: /favicon.ico
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.svg$
+
+# Sitemap declaration
+Sitemap: https://kirillayzenberg.com/sitemap.xml
