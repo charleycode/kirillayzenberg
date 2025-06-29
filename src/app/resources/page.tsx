@@ -46,7 +46,7 @@ export default function Resources() {
           Kirill Ayzenberg’s Online Presence
         </h1>
         <p className="text-center text-gray-600 mb-12">
-          Explore Kirill Ayzenberg’s blogs, profiles, and websites to learn more about his work in private lending, mortgage solutions, and real estate.
+          Explore Kirill Ayzenberg’s blogs, profiles, and websites to learn more about his work in private lending, mortgage solutions, and real estate!
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
