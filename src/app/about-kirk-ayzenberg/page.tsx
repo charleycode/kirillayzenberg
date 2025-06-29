@@ -1,8 +1,8 @@
 
 
 export const metadata = {
-    title: 'Kirk Ayzenberg? Kirill Ayzenberg? Mortgage Lender Company. Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC',
-    description: 'Discover how Kirill Ayzenberg is helping families, first-time buyers, and investors secure smarter mortgage solutions with personalized lending services and expert guidance.',
+    title: 'Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC',
+    description: 'Discover how Kirill Ayzenberg ( Kirk Ayzenberg ) is helping families, first-time buyers, and investors secure smarter mortgage solutions with personalized lending services and expert guidance.',
   };
   
   
@@ -14,7 +14,7 @@ export const metadata = {
           <div className="w-full px-4 mx-auto max-w-screen-xl py-16">
             <div className="flex flex-col md:flex-row items-center gap-8 border-y-2">
               <div className="w-1/2">
-                <h1 className="lg:text-6xl px-6">Kirk Ayzenberg? Kirill Ayzenberg? Mortgage Lender Company. Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC</h1>
+                <h1 className="lg:text-6xl px-6">Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC</h1>
                 <p className="text-xl px-6 mt-4">
                     Who is Kirill Ayzenberg?
                     Kirill Ayzenberg (also known professionally as Kirk Ayzenberg) is the driving force behind Kirill Ayzenberg LLC, 
@@ -25,7 +25,7 @@ export const metadata = {
               </div>
               <div className="w-full md:w-1/2 px-6 mt-8 md:mt-0">
                 <img
-                  src="/public/Kirill-Ayzenberg-Logo-Kirill-ayzenberg-BlueKirill-Ayzenberg-LLC.png.png"
+                  src="/Kirill-Ayzenberg-Logo-Kirill-ayzenberg-BlueKirill-Ayzenberg-LLC.png.png"
                   alt="Kirill Ayzenberg Logo - AKA Kirk Ayzenberg - Kirill Ayzenberg LLC"
                   width={1200}
                   height={400}
