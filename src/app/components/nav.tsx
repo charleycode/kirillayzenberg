@@ -30,7 +30,7 @@ export default function Nav() {
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6">
         <li><Link href="/">Home</Link></li>
-        <li><Link href="/about">About</Link></li>
+        <li><Link href="/about-kirk-ayzenberg">About <span className="hidden">Kirk Ayzenberg</span></Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
 
@@ -50,7 +50,7 @@ export default function Nav() {
       {isOpen && (
         <ul className="absolute top-full left-0 w-full bg-white shadow-md md:hidden flex flex-col gap-4 p-4 z-50">
           <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
+          <li><Link href="/about-kirk-ayzenberg">About <span className="hidden">Kirk Ayzenberg</span></Link></li>
           <li><Link href="/contact">Contact</Link></li>
         </ul>
       )}
