@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import Head from 'next/head';
+import { FormEvent } from 'react';
+
 
 export default function Contact() {
   const [status, setStatus] = useState('');
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('Sending...');
 
@@ -14,18 +16,19 @@ export default function Contact() {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        name: e.target.name.value,
-        email: e.target.email.value,
-        message: e.target.message.value,
+        name: (e.currentTarget.elements.namedItem('name') as HTMLInputElement).value,
+        email: (e.currentTarget.elements.namedItem('email') as HTMLInputElement).value,
+        message: (e.currentTarget.elements.namedItem('message') as HTMLTextAreaElement).value,
       }),
     });
 
     if (res.ok) {
       setStatus('✅ Message sent!');
-      e.target.reset();
+      e.currentTarget.reset(); // ✅ No TypeScript error
     } else {
       setStatus('❌ Error sending message.');
     }
+    
   };
 
   return (
@@ -59,7 +62,7 @@ export default function Contact() {
             />
             <textarea
               name="message"
-              rows="5"
+              rows={5}
               placeholder="Your Message"
               required
               className="border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-300 transition"
