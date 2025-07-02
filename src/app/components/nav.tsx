@@ -29,7 +29,7 @@ export default function Nav() {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6">
-        <li><Link href="/">Home</Link></li>
+        <li><Link href="/"><span className="hidden">kirill Ayzenberg </span>Home</Link></li>
         <li><Link href="/about-kirk-ayzenberg">About <span className="hidden">Kirk Ayzenberg</span></Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
