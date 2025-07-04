@@ -16,7 +16,7 @@ export const metadata = {
               <div className="w-1/2">
                 <h1 className="lg:text-6xl px-6">Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC</h1>
                 <p className="text-xl px-6 mt-4">
-                    Who is Kirill Ayzenberg?
+                    Who is Kirk Ayzenberg?
                     Kirill Ayzenberg (also known professionally as Kirk Ayzenberg) is the driving force behind Kirill Ayzenberg LLC, 
                     a trusted mortgage lender dedicated to guiding clients through life’s most important financial decisions. 
                     Based in California, Kirill combines deep expertise in private and wholesale lending with tech-forward strategies that streamline the 
