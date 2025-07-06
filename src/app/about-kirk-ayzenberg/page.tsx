@@ -25,7 +25,7 @@ export const metadata = {
               </div>
               <div className="w-full md:w-1/2 px-6 mt-8 md:mt-0">
                 <img
-                  src="/Kirill-Ayzenberg-Logo-Kirill-ayzenberg-BlueKirill-Ayzenberg-LLC.png"
+                  src="/Kirill-Ayzenberg-Logo-Kirill-ayzenberg-Blue-Kirill-Ayzenberg-LLC.png"
                   alt="Kirill Ayzenberg Logo - AKA Kirk Ayzenberg - Kirill Ayzenberg LLC"
                   width={1200}
                   height={400}
