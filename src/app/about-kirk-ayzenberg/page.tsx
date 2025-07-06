@@ -57,26 +57,53 @@ export const metadata = {
 
       {/* Mission + What We Offer */}
       <section className="bg-gray-100 py-16">
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
-          <div>
-            <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
-            <ol className="list-decimal ml-4 space-y-2">
-              <li>Empower you with clear, honest mortgage guidance.</li>
-              <li>Leverage technology to reduce paperwork and speed approvals.</li>
-              <li>Tailor each loan to your unique goals.</li>
-            </ol>
-          </div>
-          <div>
-            <h2 className="text-3xl font-semibold mb-4">What We Offer</h2>
-            <ul className="list-disc ml-4 space-y-2">
-              <li>Home Purchase Loans – First-time & move-up mortgages</li>
-              <li>Refinancing – Lower rates, cash-out, equity access</li>
-              <li>Private & Bridge Financing – Fast funding for investors</li>
-              <li>Digital Loan Process – Easy documents & approvals</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+
+    <div className="flex flex-col justify-between bg-white rounded-md p-6 shadow">
+      <div>
+        <h2 className="text-3xl font-semibold mb-4">Our Mission</h2>
+        <ol className="list-decimal ml-4 space-y-2">
+          <li>Empower you with clear, honest mortgage guidance.</li>
+          <li>Leverage technology to reduce paperwork and speed approvals.</li>
+          <li>Tailor each loan to your unique goals.</li>
+        </ol>
+      </div>
+
+      <div className="mt-8">
+        <a
+          href="/mortgage-lender"
+          className="inline-block w-1/2 text-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition"
+        >
+          Mortgage Lender Space
+        </a>
+      </div>
+    </div>
+
+    <div className="flex flex-col justify-between bg-white rounded-md p-6 shadow">
+      <div>
+        <h2 className="text-3xl font-semibold mb-4">What We Offer</h2>
+        <ul className="list-disc ml-4 space-y-2">
+          <li>Home Purchase Loans – First-time &amp; move-up mortgages</li>
+          <li>Refinancing – Lower rates, cash-out, equity access</li>
+          <li>Private &amp; Bridge Financing – Fast funding for investors</li>
+          <li>Digital Loan Process – Easy documents &amp; approvals</li>
+        </ul>
+      </div>
+
+      <div className="mt-8">
+        <a
+          href="/software-company"
+          className="inline-block w-1/2 text-center px-6 py-3 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700 transition"
+        >
+          Software Company Hub
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
 
       {/* Why Choose Us */}
       <section className="max-w-7xl mx-auto px-6 py-16">
