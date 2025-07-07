@@ -28,7 +28,7 @@ export default function SoftwareCompanies() {
         <h2 className="text-3xl font-semibold mt-10 mb-4">Software Companies Managed by Kirill Ayzenberg</h2>
 
         {/* Nexys */}
-        <h3 className="text-2xl font-bold mt-8 mb-2">Nexys, LLC</h3>
+        <a href="/nexys-llc-loan-origination-software-company"><h3 className="text-2xl font-bold mt-8 mb-2">Nexys LLC: Loan Origination Software </h3></a>
         <p className="mb-4">
           <strong>Nexys</strong> is a <strong>software company</strong> providing advanced mortgage CRM and loan origination solutions. Managed by <strong>Kirill Ayzenberg</strong>, Nexys helps mortgage lenders, brokers, and servicers streamline their workflows with:
         </p>
