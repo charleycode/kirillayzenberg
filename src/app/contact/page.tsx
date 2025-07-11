@@ -1,9 +1,12 @@
 "use client";
 
 import { useState } from 'react';
-import Head from 'next/head';
 import { FormEvent } from 'react';
 
+export const metadata = {
+  title: 'Contact Kirill Ayzenberg - Mortgage Lending Services & Inquiries',
+  description: 'Contact Kirill Ayzenberg today for personalized mortgage lending services, expert guidance, and answers to all your mortgage-related questions and inquiries.',
+};
 
 export default function Contact() {
   const [status, setStatus] = useState('');
@@ -32,17 +35,11 @@ export default function Contact() {
   };
 
   return (
-    <>
-      <Head>
-        <title>Contact Kirill Ayzenberg</title>
-        <meta name="description" content="Contact Kirill Ayzenberg for mortgage lending services and inquiries." />
-      </Head>
-
       <main className="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center justify-center px-4 py-16">
         <div className="bg-white max-w-lg w-full rounded-2xl shadow-xl p-8 md:p-10">
-          <h1 className="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-4">
+          <a href="https://kirillayzenberg.com"><h1 className="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-4">
             Contact <span className="text-blue-600">Kirill Ayzenberg</span>
-          </h1>
+          </h1></a>
           <p className="text-center text-gray-500 mb-8">Have questions? Fill out the form below.</p>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">
@@ -84,6 +81,5 @@ export default function Contact() {
           </div>
         </div>
       </main>
-    </>
   );
 }
