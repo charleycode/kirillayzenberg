@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Resources() {
+export default function socialMediaPage() {
   const resources = [
     {
       title: "Google Sites Blog",
