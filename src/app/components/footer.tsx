@@ -49,7 +49,7 @@ export default function Nav() {
                 <section className=" bg-gray-700 p-4">
                     <div className="max-w-7xl mx-auto px-4 text-center ">
                     <p className="text-sm text-white">
-                        Copyright 2025 Kirill Ayzenberg LLC
+                        Copyright 2025 <a href="https://kirillayzenberg.com" id="kirill-ayzenberg-footer-copyright">Kirill Ayzenberg LLC</a>
                     </p>
                     </div>
                 </section>
