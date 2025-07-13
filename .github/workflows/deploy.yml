@@ -19,21 +19,31 @@ jobs:
       - name: ⚙️ Build and export the site
         run: |
           npm run build
+          npm run export
 
-      - name: 🚀 Sync build output to S3
-        uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --delete
+      - name: 🚀 Upload static site to S3 (with correct MIME types)
+        run: |
+          aws s3 sync ./out s3://$AWS_S3_BUCKET \
+            --delete \
+            --acl public-read \
+            --content-type text/html \
+            --exclude "*" \
+            --include "*.html" \
+            --metadata-directive REPLACE
+
+          # Upload other asset types with auto-detection
+          aws s3 sync ./out s3://$AWS_S3_BUCKET \
+            --delete \
+            --acl public-read \
+            --exclude "*.html"
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
-          SOURCE_DIR: ./out
 
       - name: 🔁 Apply redirects from redirects.json
         run: |
-          # Fail gracefully if redirects.json is missing
           if [ ! -f redirects.json ]; then
             echo "⚠️ No redirects.json file found, skipping redirect setup."
             exit 0
@@ -43,7 +53,6 @@ jobs:
 
           cat redirects.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read from to; do
             echo "➡️ Creating redirect: $from → $to"
-            # Create a redirect object in S3
             aws s3 cp ./out/index.html s3://$AWS_S3_BUCKET$from/index.html \
               --website-redirect "$to" \
               --metadata-directive REPLACE \
