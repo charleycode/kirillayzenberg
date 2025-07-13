@@ -31,6 +31,31 @@ jobs:
           AWS_REGION: ${{ secrets.AWS_REGION }}
           SOURCE_DIR: ./out
 
+      - name: 🔁 Apply redirects from redirects.json
+        run: |
+          # Fail if redirects.json doesn't exist
+          if [ ! -f redirects.json ]; then
+            echo "❌ redirects.json not found. Skipping redirects."
+            exit 0
+          fi
+
+          echo "📄 Found redirects.json. Applying redirect rules..."
+
+          # Loop through JSON entries and apply redirect metadata
+          cat redirects.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read from to; do
+            echo "➡️ Redirecting $from → $to"
+            aws s3 cp s3://$AWS_S3_BUCKET/index.html s3://$AWS_S3_BUCKET${from}/index.html \
+              --website-redirect "$to" \
+              --metadata-directive REPLACE \
+              --acl public-read \
+              --content-type text/html
+          done
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
       - name: 🔄 Invalidate CloudFront cache (optional)
         if: ${{ env.CLOUDFRONT_DISTRIBUTION_ID != '' }}
         uses: chetan/invalidate-cloudfront-action@v2
