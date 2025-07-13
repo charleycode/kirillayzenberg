@@ -5,22 +5,22 @@ const outDir = "./out";
 
 fs.readdirSync(outDir).forEach((file) => {
   const filePath = path.join(outDir, file);
+  const fileName = path.basename(filePath);
 
-  // Process only .html files at the root (skip index.html)
+  // Only process .html files that are not index.html
   if (
     fs.lstatSync(filePath).isFile() &&
-    file.endsWith(".html") &&
-    file !== "index.html"
+    fileName.endsWith(".html") &&
+    fileName !== "index.html"
   ) {
-    const baseName = file.replace(".html", "");
+    const baseName = fileName.replace(".html", "");
     const folderPath = path.join(outDir, baseName);
 
-    // Create folder
-    fs.mkdirSync(folderPath);
+    if (!fs.existsSync(folderPath)) {
+      fs.mkdirSync(folderPath);
+    }
 
-    // Move file inside as index.html
     fs.renameSync(filePath, path.join(folderPath, "index.html"));
-
-    console.log(`Moved ${file} to ${baseName}/index.html`);
+    console.log(`Moved ${fileName} to ${baseName}/index.html`);
   }
 });
