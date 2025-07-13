@@ -20,18 +20,35 @@ jobs:
         run: |
           npm run build
 
-      - name: 🚀 Upload static site to S3 (preserve folders + correct MIME)
+      - name: 🚀 Upload static site to S3 (force correct MIME + folders)
         run: |
-          sudo apt-get update && sudo apt-get install -y file
+          echo "Starting manual file upload with fixed MIME types..."
 
-          # Upload each file manually with preserved folder structure and correct content-type
-          find out -type f | while read file; do
-            key="${file#out/}"
-            mime_type=$(file --mime-type -b "$file")
+          find ./out -type f | while read filepath; do
+            key="${filepath#./out/}"
 
-            echo "Uploading: $key as $mime_type"
-            aws s3 cp "$file" "s3://$AWS_S3_BUCKET/$key" \
-              --content-type "$mime_type" \
+            # Default MIME
+            content_type="application/octet-stream"
+
+            # Assign correct MIME based on extension
+            case "$filepath" in
+              *.html) content_type="text/html" ;;
+              *.css) content_type="text/css" ;;
+              *.js) content_type="application/javascript" ;;
+              *.json) content_type="application/json" ;;
+              *.xml) content_type="application/xml" ;;
+              *.jpg|*.jpeg) content_type="image/jpeg" ;;
+              *.png) content_type="image/png" ;;
+              *.webp) content_type="image/webp" ;;
+              *.svg) content_type="image/svg+xml" ;;
+              *.ico) content_type="image/x-icon" ;;
+              *.txt) content_type="text/plain" ;;
+            esac
+
+            echo "Uploading: $key with MIME type: $content_type"
+
+            aws s3 cp "$filepath" "s3://$AWS_S3_BUCKET/$key" \
+              --content-type "$content_type" \
               --acl public-read
           done
         env:
