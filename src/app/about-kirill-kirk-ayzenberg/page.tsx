@@ -1,4 +1,4 @@
-
+import Head from 'next/head';
 
 export const metadata = {
     title: 'Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC',
@@ -9,6 +9,11 @@ export const metadata = {
   export default function AboutKirkAyzenbergPage() {
     return (
       <div>
+      <Head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <link rel="canonical" href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg" />
+      </Head>
         {/* Hero Section */}
         <section className="bg-[url('/Kirill-Ayzenberg-Hero-background-kirill-ayzenberg-llc.jpg')] bg-cover bg-center text-white">
           <div className="w-full px-4 mx-auto max-w-screen-xl py-16">
