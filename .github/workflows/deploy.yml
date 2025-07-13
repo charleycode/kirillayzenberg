@@ -20,21 +20,20 @@ jobs:
         run: |
           npm run build
 
-      - name: 🚀 Upload static site to S3 (with correct MIME types)
+      - name: 🚀 Upload static site to S3 (preserve folders + correct MIME)
         run: |
-          aws s3 sync ./out s3://$AWS_S3_BUCKET \
-            --delete \
-            --acl public-read \
-            --content-type text/html \
-            --exclude "*" \
-            --include "*.html" \
-            --metadata-directive REPLACE
+          sudo apt-get update && sudo apt-get install -y file
 
-          # Upload other asset types with auto-detection
-          aws s3 sync ./out s3://$AWS_S3_BUCKET \
-            --delete \
-            --acl public-read \
-            --exclude "*.html"
+          # Upload each file manually with preserved folder structure and correct content-type
+          find out -type f | while read file; do
+            key="${file#out/}"
+            mime_type=$(file --mime-type -b "$file")
+
+            echo "Uploading: $key as $mime_type"
+            aws s3 cp "$file" "s3://$AWS_S3_BUCKET/$key" \
+              --content-type "$mime_type" \
+              --acl public-read
+          done
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
