@@ -33,18 +33,18 @@ jobs:
 
       - name: 🔁 Apply redirects from redirects.json
         run: |
-          # Fail if redirects.json doesn't exist
+          # Fail gracefully if redirects.json is missing
           if [ ! -f redirects.json ]; then
-            echo "❌ redirects.json not found. Skipping redirects."
+            echo "⚠️ No redirects.json file found, skipping redirect setup."
             exit 0
           fi
 
-          echo "📄 Found redirects.json. Applying redirect rules..."
+          echo "📄 Applying redirects from redirects.json..."
 
-          # Loop through JSON entries and apply redirect metadata
           cat redirects.json | jq -r 'to_entries[] | "\(.key) \(.value)"' | while read from to; do
-            echo "➡️ Redirecting $from → $to"
-            aws s3 cp s3://$AWS_S3_BUCKET/index.html s3://$AWS_S3_BUCKET${from}/index.html \
+            echo "➡️ Creating redirect: $from → $to"
+            # Create a redirect object in S3
+            aws s3 cp ./out/index.html s3://$AWS_S3_BUCKET$from/index.html \
               --website-redirect "$to" \
               --metadata-directive REPLACE \
               --acl public-read \
