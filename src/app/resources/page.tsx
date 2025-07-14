@@ -18,7 +18,7 @@ export default function Resource() {
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Resources</h1>
 
         <p className="mb-8">
-          Welcome to the official resource hub for <strong>Kirill Ayzenberg</strong>. Here, you can explore all the social media platforms where Kirill Ayzenberg shares insights, updates, and brand news, and connect with him directly.
+          Welcome to the official resource hub for <strong>Kirill Ayzenberg</strong>. Here, you can explore all the social media platforms where <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">Kirill kirk Ayzenberg shares insights, updates, and brand news, and connect with him directly.</a>
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Ayzenberg?</h2>
