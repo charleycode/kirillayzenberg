@@ -28,7 +28,6 @@ export default function Nav() {
       <ul className="hidden md:flex gap-6">
         <li><Link href="/">Home <span className="hidden">Kirill Ayzenberg</span></Link></li>
         <li><Link href="/about-kirill-kirk-ayzenberg">About <span className="hidden">kirill Kirk Ayzenberg</span></Link></li>
-        <li><Link href="/contact">Contact</Link></li>
       </ul>
 
       {/* Hamburger (Mobile) */}
@@ -48,7 +47,6 @@ export default function Nav() {
         <ul className="absolute top-full left-0 w-full bg-white shadow-md md:hidden flex flex-col gap-4 p-4 z-50">
           <li><Link href="/">Home <span className="hidden">Kirill Ayzenberg</span></Link></li>
           <li><Link href="/about-kirill-kirk-ayzenberg">About <span className="hidden">Kirill Kirk Ayzenberg</span></Link></li>
-          <li><Link href="/contact">Contact</Link></li>
         </ul>
       )}
     </nav>

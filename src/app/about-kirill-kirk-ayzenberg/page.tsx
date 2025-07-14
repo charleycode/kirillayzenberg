@@ -148,7 +148,7 @@ export const metadata = {
         <h2 className="text-3xl font-semibold mb-4">Ready to Start?</h2>
         <p className="mb-8">Contact Kirill Ayzenberg LLC to begin your mortgage journey today.</p>
         <a
-          href="mailto:kirillayzenberg@gmail.com"
+          href="/contact"
           className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition"
         >
           Get in Touch
