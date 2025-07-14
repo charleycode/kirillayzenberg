@@ -3,37 +3,37 @@ import Link from 'next/link';
 export default function socialMediaPage() {
   const resources = [
     {
-      title: "Google Sites Blog",
+      title: "Kirill Ayzenberg on Google Sites Blog",
       description: "Kirill Ayzenberg's real estate insights and articles hosted on Google Sites, covering mortgage lending and private lending topics.",
       url: "https://sites.google.com/view/kirill-ayzenberg-real-estate/",
     },
     {
-      title: "Gravatar Profile",
+      title: "Kirill Ayzenberg on Gravatar Profile",
       description: "Professional profile for Kirill Ayzenberg on Gravatar, showcasing his brand and web presence across platforms.",
       url: "https://gravatar.com/swaga5205887cb6",
     },
     {
-      title: "WordPress Blog",
+      title: "Kirill Ayzenberg on WordPress Blog",
       description: "Kirill Ayzenberg's mortgage and real estate blog on WordPress, featuring educational and industry articles.",
       url: "https://kirillayzenberg.wordpress.com",
     },
     {
-      title: "Weebly Website",
+      title: "Kirill Ayzenberg on Weebly Website",
       description: "Explore Kirill Ayzenberg's Weebly site, sharing insights and services in private lending and real estate finance.",
       url: "https://kirillayzenberg.weebly.com/",
     },
     {
-      title: "Bravesites Blog",
+      title: "Kirill Ayzenberg on Bravesites Blog",
       description: "Kirill Ayzenberg's real estate and mortgage lending content hosted on Bravesites, covering niche market strategies.",
       url: "https://kirillayzenberg.bravesites.com/",
     },
     {
-      title: "Protopage",
+      title: "Kirill Ayzenberg on Protopage",
       description: "A resource hub and profile overview for Kirill Ayzenberg on Protopage, linking to various projects and articles.",
       url: "https://www.protopage.com/kirillayzenberg",
     },
     {
-      title: "Amazon S3 Website",
+      title: "Kirill Ayzenberg on Amazon S3 Website",
       description: "Kirill Ayzenberg's static website hosted on Amazon S3, featuring his business overview and contact information.",
       url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html",
     },
@@ -48,6 +48,10 @@ export default function socialMediaPage() {
         <p className="text-center text-gray-600 mb-12">
           Explore <a href="https://kirillazyenberg.com">Kirill</a> Ayzenberg’s blogs, profiles, and websites to learn more about his work in private lending, mortgage solutions, and real estate!
         </p>
+        <p className="text-center text-gray-600 mb-12">
+          Dive into <a href="https://kirillazyenberg.com/about-kirill-kirk-ayzenberg">Kirill Ayzenberg mortgage world</a> of real estate, lending, and innovation — where mortgage expertise meets real results.
+        </p>
+
 
         <div className="grid md:grid-cols-2 gap-6">
           {resources.map((resource, index) => (
