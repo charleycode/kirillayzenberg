@@ -66,7 +66,7 @@ export default function Home() {
           - Blog articles on homeownership and investment strategies  
 
           <h2>Start Your Home Loan Journey with Confidence</h2>
-          Every mortgage tells a story. Let yours begin with clarity, care, and Kirill Ayzenberg guiding you every step of the way.
+          Every mortgage tells a story. Let yours begin with clarity, care, and <Link href="/about-kirill-kirk-ayzenberg">Kirill Kirk Ayzenberg</Link> guiding you every step of the way.
 
 
         </div>
