@@ -19,7 +19,7 @@ export const metadata = {
           <div className="w-full px-4 mx-auto max-w-screen-xl py-16">
             <div className="flex flex-col md:flex-row items-center gap-8 border-y-2">
               <div className="w-1/2">
-                <a href="https://kirillayzenberg.com"><h1 className="lg:text-6xl px-6">Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC</h1></a>
+                <a href="https://kirillayzenberg.com"><h1 className="lg:text-6xl px-6">About Kirill Kirk Ayzenberg? Who Is Kirill Kirk Ayzenberg?</h1></a>
                 <p className="text-xl px-6 mt-4">
                     Who is Kirk Ayzenberg?
                     Kirill Ayzenberg (also known professionally as Kirk Ayzenberg) is the driving force behind Kirill Ayzenberg LLC, 
