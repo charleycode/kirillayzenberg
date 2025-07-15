@@ -14,15 +14,15 @@ export default function KirillAyzenbergDSCRLoan() {
       </Head>
 
       <main className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg DSCR Loan Solutions</h1>
+        <h1 className="text-4xl font-bold mb-6">Kirill kirk Ayzenberg DSCR Loan Solutions</h1>
 
         <p className="mb-8">
           <strong>Kirill Ayzenberg</strong> is a trusted expert in <strong>DSCR loans</strong>, helping real estate investors secure financing based on property cash flow rather than traditional income verification. Discover how <strong>Kirill Ayzenberg’s DSCR loan</strong> programs can empower your next investment.
         </p>
 
-        <h2 className="text-3xl font-semibold mt-10 mb-4">What is a DSCR Loan with Kirill Ayzenberg?</h2>
+        <h2 className="text-3xl font-semibold mt-10 mb-4">What is a <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">DSCR Loan with Kirill kirk Ayzenberg Mortgage Lender?</a></h2>
         <p className="mb-8">
-          A <strong>DSCR loan</strong> (Debt Service Coverage Ratio loan) offered by <strong>Kirill Ayzenberg</strong> is designed for investors looking to qualify based on the income their property generates. Unlike traditional loans, <strong>DSCR loans</strong> assess cash flow strength to approve financing quickly and efficiently.
+          A <strong>DSCR loan</strong> (Debt Service Coverage Ratio loan) offered by <strong>Kirill Kirk Ayzenberg</strong> is designed for investors looking to qualify based on the income their property generates. Unlike traditional loans, <strong>DSCR loans</strong> assess cash flow strength to approve financing quickly and efficiently.
         </p>
 
         <h3 className="text-2xl font-bold mt-8 mb-2">Benefits of Choosing a Kirill Ayzenberg DSCR Loan</h3>

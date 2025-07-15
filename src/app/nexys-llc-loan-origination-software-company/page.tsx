@@ -52,7 +52,7 @@ export default function NexysLLCPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">The Kirill Ayzenberg Perspective: Why We Follow Nexys LLC</h2>
+          <h2 className="text-2xl font-semibold mb-4"><a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">The Kirill Ayzenberg Perspective</a>: Why We Follow Nexys LLC</h2>
           <p>
             As a mortgage lender, staying ahead of technology trends is essential. Nexys LLC provides tools that:
           </p>

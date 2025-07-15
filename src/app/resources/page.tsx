@@ -3,17 +3,15 @@
 import Head from 'next/head';
 import Link from 'next/link';
 
+export const metadata = {
+  title: 'Connect with Kirill Ayzenberg | Official Resources',
+  description:
+    'Explore all official social media profiles of Kirill Ayzenberg. Connect on LinkedIn, YouTube, Twitter, and Instagram to follow his latest updates, insights, and brand news.',
+};
+
 export default function Resource() {
   return (
     <>
-      <Head>
-        <title>Connect with Kirill Ayzenberg | Official Resources</title>
-        <meta
-          name="description"
-          content="Explore all official social media profiles of Kirill Ayzenberg. Connect on LinkedIn, YouTube, Twitter, and Instagram to follow his latest updates, insights, and brand news."
-        />
-      </Head>
-
       <main className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Resources</h1>
 
