@@ -45,7 +45,7 @@ export const metadata = {
               {/* About & Experience Cards */}
       <section className="max-w-7xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12">
         <div>
-          <h2 className="text-3xl font-semibold mb-4">Who is Kirill Ayzenberg?</h2>
+          <h2 className="text-3xl font-semibold mb-4">Who is Kirill Kirk Ayzenberg?</h2>
           <p>
             Kirill Ayzenberg (also known professionally as Kirk Ayzenberg) is the driving force behind <strong>Kirill Ayzenberg LLC</strong>, a trusted mortgage lender dedicated to guiding clients through life’s most important financial decisions. Based in California, Kirill combines deep expertise in private and wholesale lending with tech-forward strategies that streamline the loan process for homebuyers, investors, and businesses.
           </p>

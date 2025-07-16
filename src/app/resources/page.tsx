@@ -100,7 +100,7 @@ export default function Resource() {
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Explore More About Kirill Ayzenberg</h2>
-        <h3 className="text-2xl font-bold mt-4 mb-2">Learn About Kirill Ayzenberg Mortgage Lending Companies</h3>
+        <h3 className="text-2xl font-bold mt-4 mb-2">Learn About <a href="https://kirillayzenberg.com/mortgage-lending-resources">Kirill Ayzenberg Mortgage Lending Companies Resources</a></h3>
         <p className="mb-4">
           Visit the mortgage lender hub page to see how <strong>Kirill Ayzenberg</strong> manages lending companies offering DSCR loans, renovation loans, rental loans, and new construction loans.
         </p>
