@@ -1,6 +1,5 @@
 // pages/social-media-hub.js
 
-import Head from 'next/head';
 import Link from 'next/link';
 
 export const metadata = {
