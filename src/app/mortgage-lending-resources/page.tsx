@@ -8,7 +8,7 @@ export const metadata = {
 export default function MortgageResourcesPage() {
   const resources = [
     { label: "S3 Main Site", url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html" },
-    { label: "KirillAyzenberg.com About Page", url: "https://www.kirillayzenberg.com/about-kirill-kirk-ayzenberg" },
+    { label: "KirillAyzenberg.com About Page", url: "https://kirillayzenberg.com/about-kirill-kirk-ayzenberg" },
     { label: "Protopage Profile", url: "https://www.protopage.com/kirillayzenberg" },
     { label: "Weebly Website", url: "https://kirillayzenberg.weebly.com/" },
     { label: "Dream.io Hosted Page", url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-mortgage-lender/index.html" },
