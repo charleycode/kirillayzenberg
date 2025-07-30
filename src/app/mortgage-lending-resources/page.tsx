@@ -7,16 +7,10 @@ export const metadata = {
 
 export default function MortgageResourcesPage() {
   const resources = [
-    { label: "S3 Main Site", url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html" },
-    { label: "KirillAyzenberg.com About Page", url: "https://kirillayzenberg.com/about-kirill-kirk-ayzenberg" },
+    { label: "S3 Kirill ayzenberg Main Site", url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html" },
     { label: "Protopage Profile", url: "https://www.protopage.com/kirillayzenberg" },
     { label: "Weebly Website", url: "https://kirillayzenberg.weebly.com/" },
-    { label: "Dream.io Hosted Page", url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-mortgage-lender/index.html" },
-    { label: "Azure Blob About Page", url: "https://kirillayzenberg.blob.core.windows.net/kirill-ayzenberg-mortgage-lender/about.html" },
     { label: "KirkAyzenberg.com", url: "https://kirkayzenberg.com/" },
-    { label: "S3 West Contact Page", url: "https://s3.us-west-1.amazonaws.com/kirill-ayzenberg-mortgage-lender/contact.html" },
-    { label: "Oracle Cloud About Page", url: "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-software-company/o/about.html" },
-    { label: "Oracle Cloud Index Page", url: "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-software-company/o/index.html" },
   ];
 
   return (
