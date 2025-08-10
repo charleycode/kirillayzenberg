@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: 'Contact Kirill Ayzenberg - Mortgage Lending Services & Inquiries',
   description: 'Contact Kirill Ayzenberg today for personalized mortgage lending services, expert guidance, and answers to all your mortgage-related questions and inquiries.',
@@ -39,7 +41,7 @@ export default function Contact() {
             Contact <span className="text-blue-600">Kirill Ayzenberg</span>
           </h1>
         </a>
-        <p className="text-center text-gray-500 mb-8"><a href="/about-kirill-kirk-ayzenberg">Have questions about Kirill Kirk Ayzenberg</a>? Contact Kirill Ayzenberg using the information below.</p>
+        <p className="text-center text-gray-500 mb-8"><Link href="/">Have questions about Kirill Kirk Ayzenberg</Link>? Contact Kirill Ayzenberg using the information below.</p>
 
         {/*
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
