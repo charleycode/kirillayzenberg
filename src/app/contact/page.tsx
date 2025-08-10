@@ -78,7 +78,23 @@ export default function Contact() {
         <div className="mt-8 text-center text-gray-600">
           <p>Email: <a href="mailto:kirillayzenbergseo@gmail.com" className="text-blue-600 hover:underline">kirillayzenbergseo@gmail.com</a></p>
           <p>Phone: <a href="tel:+16573308857" className="text-blue-600 hover:underline">(657) 330-8857</a></p>
-          <a href="/resources" className="text-blue-600 hover:underline">Resources</a>
+          <div className="p-6 bg-gray-50 rounded-lg shadow-sm mt-6">
+            <h2 className="text-2xl font-bold text-gray-800 mb-4">Resources</h2>
+            
+            <div className="space-y-3">
+              <div>
+                <h3 className="text-lg font-semibold text-blue-600 hover:underline">
+                  <a href="/resources">Resources</a>
+                </h3>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold text-blue-600 hover:underline">
+                  <a href="/kirill-ayzenberg-social-media">Kirill Social Media</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </main>

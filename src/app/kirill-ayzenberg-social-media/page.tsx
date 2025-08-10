@@ -33,10 +33,40 @@ export default function socialMediaPage() {
       url: "https://www.protopage.com/kirillayzenberg",
     },
     {
-      title: "Kirill Ayzenberg on Amazon S3 Website",
-      description: "Kirill Ayzenberg's static website hosted on Amazon S3, featuring his business overview and contact information.",
-      url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html",
+    title: "Kirill Ayzenberg Mortgage Lender (Dream.io East)",
+    description: "Static website hosted on Dream.io S3 (US East) for Kirill Ayzenberg's mortgage lending business.",
+    url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-mortgage-lender/index.html",
     },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender (AWS US West 1)",
+      description: "Static website hosted on AWS S3 (US West 1) for Kirill Ayzenberg's mortgage lending business.",
+      url: "https://s3.us-west-1.amazonaws.com/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company (Oracle Ashburn)",
+      description: "Static website hosted on Oracle Object Storage (Ashburn) for Kirill Ayzenberg's software company.",
+      url: "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-software-company/o/index.html",
+    },
+    {
+      title: "JSBin HTML Example",
+      description: "JSBin code example for HTML and output preview.",
+      url: "https://jsbin.com/zegulojohe/1/edit?html,output",
+    },
+    {
+      title: "Kirill Ayzenberg Bookmarks",
+      description: "Public Raindrop.io collection of bookmarks.",
+      url: "https://raindrop.io/luanonwgua/bookmarks-58264844",
+    },
+    {
+      title: "Kirill Ayzenberg Real Estate Lender (Oracle Phoenix)",
+      description: "Static website hosted on Oracle Object Storage (Phoenix) for Kirill Ayzenberg's real estate lending business.",
+      url: "https://objectstorage.us-phoenix-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-real-estate-lender/o/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Private Lender (Oracle San Jose)",
+      description: "Static website hosted on Oracle Object Storage (San Jose) for Kirill Ayzenberg's private lending business.",
+      url: "https://objectstorage.us-sanjose-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-private-lender/o/index.html",
+    }
   ];
 
   return (

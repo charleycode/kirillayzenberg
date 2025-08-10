@@ -15,7 +15,7 @@ export default function Resource() {
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Resources</h1>
 
         <p className="mb-8">
-          Welcome to the official resource hub for <strong>Kirill Ayzenberg</strong>. Here, you can explore all the social media platforms where <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">Kirill kirk Ayzenberg shares insights, updates, and brand news, and connect with him directly.</a>
+          <a href="https://s3.us-east-2.amazonaws.com/kirill-ayzenberg/index.html">Welcome to the official resource hub for <strong>Kirill Ayzenberg</strong></a>. Here, you can explore all the social media platforms where <a href="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-software-company/o/about.html">Kirill kirk Ayzenberg shares insights, updates, and brand news, and connect with him directly.</a>
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Ayzenberg?</h2>
@@ -99,7 +99,7 @@ export default function Resource() {
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Explore More About Kirill Ayzenberg</h2>
-        <h3 className="text-2xl font-bold mt-4 mb-2">Learn About <a href="https://kirillayzenberg.com/mortgage-lending-resources">Kirill Ayzenberg Mortgage Lending Companies Resources</a></h3>
+        <h3 className="text-2xl font-bold mt-4 mb-2">Learn About <a href="https://kirkayzenberg.com/">Kirill Ayzenberg Mortgage Lending Companies Resources</a></h3>
         <p className="mb-4">
           Visit the mortgage lender hub page to see how <strong>Kirill Ayzenberg</strong> manages lending companies offering DSCR loans, renovation loans, rental loans, and new construction loans.
         </p>
