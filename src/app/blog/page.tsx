@@ -31,6 +31,13 @@ const posts = [
       "Everything you need to understand mortgages—loan types, rates, process, and tips to qualify—plus actionable resources.",
     date: "2025-08-10",
   },
+  {
+    slug: "/nexys-llc-loan-origination-software-company",
+    title: "Nexys LLC: Loan Origination Software Company for Modern Lenders",
+    excerpt:
+      "Discover how Nexys LLC develops innovative loan origination software solutions for private lenders, banks, and real estate professionals.",
+    date: "2025-08-10",
+  },
 ];
 
 export default function BlogIndex() {
