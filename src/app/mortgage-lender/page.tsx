@@ -43,7 +43,7 @@ export default function MortgageLenderCompanies() {
         <p className="mb-4">
           <strong>Company One Mortgage</strong> is a top <strong>mortgage lender</strong> specializing in DSCR loans for real estate investors. Managed by <strong>Kirill Ayzenberg</strong>, this company helps investors acquire income-generating properties without relying on traditional income verification.
         </p>
-        <p className="mb-2 font-semibold">Key Services Offered by <a href="https://kirillayzenberg.com/kirill-ayzenberg-dscr-loan">Ayzenberg Kirill: DSCR Loans</a></p>
+        <p className="mb-2 font-semibold">Key Services Offered by Ayzenberg Kirill: DSCR Loans</p>
         <ul className="list-disc list-inside mb-8">
           <li>DSCR loans for single-family rentals</li>
           <li>DSCR loans for multifamily investments</li>

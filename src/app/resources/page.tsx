@@ -1,6 +1,5 @@
 // pages/social-media-hub.js
 
-import Link from 'next/link';
 
 export const metadata = {
   title: 'Connect with Kirill Ayzenberg | Official Resources',
@@ -31,11 +30,9 @@ export default function Resource() {
         </ul>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">
-          <Link href="/kirill-ayzenberg-social-media">
             <span className="hover:underline">
               Connect with Kirill Ayzenberg on Social Platforms
             </span>
-          </Link>
         </h2>
 
         {/* LinkedIn */}

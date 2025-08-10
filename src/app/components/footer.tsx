@@ -22,7 +22,7 @@ export default function Nav() {
                         <a href="/about-kirill-kirk-ayzenberg">
                             <div className="inline-block border border-white rounded-full px-6 py-2 hover:bg-white hover:text-blue-900 transition">
                             California, USA 
-                            <span className="hidden">Kirill kirk ayzenberg</span>
+                            <span className="hidden"> Kirill kirk ayzenberg</span>
                             </div>
                         </a>
                     </div>

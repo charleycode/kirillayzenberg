@@ -38,6 +38,13 @@ const posts = [
       "Discover how Nexys LLC develops innovative loan origination software solutions for private lenders, banks, and real estate professionals.",
     date: "2025-08-10",
   },
+  {
+    slug: "/kirill-ayzenberg-dscr-loan",
+    title: "Kirill Ayzenberg: DSCR Loan Solutions for Real Estate Investors",
+    excerpt:
+      "Learn how Kirill Ayzenberg helps real estate investors secure DSCR loans with flexible terms and competitive rates.",
+    date: "2025-08-10",
+  },
 ];
 
 export default function BlogIndex() {
