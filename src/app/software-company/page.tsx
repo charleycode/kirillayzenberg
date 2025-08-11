@@ -17,10 +17,10 @@ export default function SoftwareCompanies() {
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Software Companies Hub</h1>
 
         <p className="mb-8">
-          Welcome to the official hub for all software companies managed by <strong>Kirill Ayzenberg</strong> a leader in innovative technology solutions. On this page, you will find detailed overviews of each <strong>software company</strong> under his management, the services they provide, and how they can empower your business.
+          <a href="https://kirillayzenberg.com/">Welcome to the official hub for all software companies managed by <strong>Kirill Ayzenberg</strong></a> a leader in innovative technology solutions. On this page, you will find detailed overviews of each <strong>software company</strong> under his management, the services they provide, and how they can empower your business.
         </p>
 
-        <a href="https://kirillayzenberg.com/"><h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Ayzenberg?</h2></a>
+        <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg"><h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Kirk Ayzenberg?</h2></a>
         <p className="mb-8">
           <strong>Kirill Ayzenberg</strong> is an entrepreneur and software innovator who manages multiple <strong>software companies</strong> serving private lenders, real estate professionals, REIT managers, and more. His approach focuses on user-centric design, scalable architecture, and operational excellence to deliver results across industries.
         </p>
