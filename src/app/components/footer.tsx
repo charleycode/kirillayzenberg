@@ -1,5 +1,7 @@
 'use client';
 
+import Link from "next/link";
+
 
 export default function Nav() {
   return (
@@ -19,12 +21,12 @@ export default function Nav() {
                     {/* Info Grid */}
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto px-4 text-sm md:text-base">
                     <div>
-                        <a href="/about-kirill-kirk-ayzenberg">
+                        <Link href="/">
                             <div className="inline-block border border-white rounded-full px-6 py-2 hover:bg-white hover:text-blue-900 transition">
                             California, USA 
                             <span className="hidden"> Kirill kirk ayzenberg</span>
                             </div>
-                        </a>
+                        </Link>
                     </div>
                     <div>
                         <a href="mailto:kirillayzenberg@gmail.com" className="inline-block border border-white rounded-full px-6 py-2 hover:bg-white hover:text-blue-900 transition">
