@@ -36,7 +36,7 @@ export default function Home() {
       </section>
 
       {/* Other Section */}
-      <section className="text-black py-16 px-4 hidden">
+      <section className="text-black py-16 px-4 ">
         <div className="w-full mx-auto max-w-screen-xl flex flex-col gap-8">
           <h2>Welcome to the Lending Hub of Kirill Ayzenberg</h2>
           Kirill Ayzenberg isn&apos;t just a mortgage lender—he&apos;s a reliable partner in one of the most critical financial decisions of your life. His homepage serves as both a resource and a reflection of his commitment to transparency, strategy, and service.
@@ -53,7 +53,7 @@ export default function Home() {
           - Deep knowledge of underwriting and loan structuring
           - A genuine commitment to long-term client success
 
-          <h2>Tech-Enabled Lending with a Personal Touch</h2>
+          <Link href="/software-company"><h2>Tech-Enabled Software Lending Company with a Personal Touch</h2></Link>
           Leveraging modern digital tools for faster pre-approvals and document management, Kirill blends automation with human insight. His approach minimizes stress and accelerates decisions without sacrificing due diligence.
 
           <h2>Kirill Ayzenbergs - Client Testimonials</h2>
@@ -66,7 +66,7 @@ export default function Home() {
           - Blog articles on homeownership and investment strategies  
 
           <h2>Start Your Home Loan Journey with Confidence</h2>
-          Every mortgage tells a story. Let yours begin with clarity, care, and <Link href="/about-kirill-kirk-ayzenberg">Kirill Kirk Ayzenberg</Link> guiding you every step of the way.
+          Every mortgage tells a story. Let yours begin with clarity, care, and <Link href="/mortgage-lender">Kirill Ayzenberg guiding your Mortgage lending</Link> every step of the way.
 
 
         </div>
