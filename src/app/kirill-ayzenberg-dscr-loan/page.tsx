@@ -1,17 +1,13 @@
 // pages/kirill-ayzenberg-dscr-loan.js
 
-import Head from 'next/head';
+export const metadata = {
+  title: 'Kirill Ayzenberg DSCR Loan | Private Lending & Real Estate Financing Solutions',
+  description: 'Learn how Kirill Ayzenberg offers DSCR loan solutions for real estate investors seeking cash-flow-based financing. Discover DSCR loan benefits, process, and services today.',
+};
 
 export default function KirillAyzenbergDSCRLoan() {
   return (
     <>
-      <Head>
-        <title>Kirill Ayzenberg DSCR Loan | Private Lending & Real Estate Financing Solutions</title>
-        <meta
-          name="description"
-          content="Learn how Kirill Ayzenberg offers DSCR loan solutions for real estate investors seeking cash-flow-based financing. Discover DSCR loan benefits, process, and services today."
-        />
-      </Head>
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-6">Kirill kirk Ayzenberg DSCR Loan Solutions</h1>

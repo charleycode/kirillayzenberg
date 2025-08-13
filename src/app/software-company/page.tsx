@@ -1,17 +1,14 @@
 // pages/software-companies.js
 
-import Head from 'next/head';
+export const metadata = {
+  title: 'All Software Companies Managed by Kirill Ayzenberg | Services & Brands',
+  description: 'Explore the full list of software companies managed by Kirill Ayzenberg. Discover their services, solutions, and how they can support your business goals.',
+};
+
 
 export default function SoftwareCompanies() {
   return (
     <>
-      <Head>
-        <title>All Software Companies Managed by Kirill Ayzenberg | Services & Brands</title>
-        <meta
-          name="description"
-          content="Explore the full list of software companies managed by Kirill Ayzenberg. Discover their services, solutions, and how they can support your business goals."
-        />
-      </Head>
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Software Companies Hub</h1>

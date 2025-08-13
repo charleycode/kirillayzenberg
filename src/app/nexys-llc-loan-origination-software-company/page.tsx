@@ -1,15 +1,12 @@
-// pages/nexys-llc-loan-origination-software.js
-
-import Head from 'next/head';
 
 
+export const metadata = {
+  title: 'Kirill Ayzenberg Nexys LLC Loan Origination Software Company',
+  description: 'Explore the Software COmpanies Kirill Ayzenberg operates. Nexys LLC Loan Origiation Software',
+};
 export default function NexysLLCPage() {
   return (
     <>
-      <Head>
-        <title>Nexys LLC: Loan Origination Software | Kirill Ayzenberg</title>
-        <meta name="description" content="Explore Nexys LLC, a leading loan origination software company, from the perspective of Kirill Ayzenberg. Learn how Nexys empowers lenders and brokers with efficient solutions." />
-      </Head>
 
       <main className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-4xl font-bold mb-6">Nexys LLC: Revolutionizing Loan Origination Software Solutions</h1>

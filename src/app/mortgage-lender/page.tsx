@@ -1,17 +1,14 @@
 // pages/mortgage-lending-companies.js
 
-import Head from 'next/head';
+
+export const metadata = {
+  title: 'All Mortgage Lender Companies Managed by Kirill Ayzenberg | DSCR, Renovation, Rental & Construction Loans',
+  description: 'Explore mortgage lending companies managed by Kirill Ayzenberg, offering DSCR loans, renovation loans, rental loans, and new construction loans for real estate investors and homeowners.',
+};
 
 export default function MortgageLenderCompanies() {
   return (
     <>
-      <Head>
-        <title>All Mortgage Lender Companies Managed by Kirill Ayzenberg | DSCR, Renovation, Rental & Construction Loans</title>
-        <meta
-          name="description"
-          content="Explore mortgage lending companies managed by Kirill Ayzenberg, offering DSCR loans, renovation loans, rental loans, and new construction loans for real estate investors and homeowners."
-        />
-      </Head>
 
       <main className="max-w-4xl mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-6">Kirill Ayzenberg Mortgage Lending Companies Hub</h1>
