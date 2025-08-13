@@ -47,7 +47,7 @@ export default function Home() {
           <h2>Kirill Ayzenberg&apos;s Mortgage Solutions Tailored for You</h2>
           Whether you&apos;re a first-time homebuyer, a real estate investor, or looking to refinance, Kirill crafts financing strategies that align with your goals. His services include pre-approvals, home purchase loans, refinancing, and rate shopping guidance.
 
-          <Link href="/about-kirill-kirk-ayzenberg"><h2>Why Clients Trust Kirill Ayzenberg (Kirk Ayzenberg)</h2></Link>
+          <Link href="/about-kirill-kirk-ayzenberg"><h2>Why Clients Trust Kirill Ayzenberg ( Kirk Ayzenberg )</h2></Link>
           - Fast approvals and personalized consultation
           - Clear communication from start to finish
           - Deep knowledge of underwriting and loan structuring

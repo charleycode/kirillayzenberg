@@ -1,5 +1,8 @@
 import Link from 'next/link';
-
+export const metadata = {
+  title: 'Kirill Ayzenberg Social Media',
+  description: 'Social Media Resources for Kirill Ayzenberg',
+};
 export default function socialMediaPage() {
   const resources = [
     {
@@ -55,7 +58,7 @@ export default function socialMediaPage() {
     {
       title: "Kirill Ayzenberg Bookmarks",
       description: "Public Raindrop.io collection of bookmarks.",
-      url: "https://raindrop.io/luanonwgua/bookmarks-58264844",
+      url: "https://raindrop.io/kirillayzenbergseo/kirill-ayzenberg-58764366",
     },
     {
       title: "Kirill Ayzenberg Real Estate Lender (Oracle Phoenix)",

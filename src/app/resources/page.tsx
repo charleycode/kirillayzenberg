@@ -19,7 +19,7 @@ export default function Resource() {
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Ayzenberg?</h2>
         <p className="mb-8">
-          <strong>Kirill Ayzenberg</strong> is a renowned entrepreneur, software innovator, and mortgage lender known for leading multiple companies in the lending and technology sectors. As a thought leader, <strong>Kirill Ayzenberg</strong> shares valuable insights, business updates, and personal moments across his social media channels.
+          <strong>Kirill Ayzenberg</strong> is a renowned entrepreneur, software innovator, and mortgage lender. <a href="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-mortgage-lender/o/about.html">Kirill Ayzenberg known for leading multiple companies in mortgage lending</a> and technology sectors. As a thought leader, <strong>Kirill Ayzenberg</strong> shares valuable insights, business updates, and personal moments across his social media channels.
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Why Follow Kirill Ayzenberg on Social Media?</h2>
