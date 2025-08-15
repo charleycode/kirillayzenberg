@@ -108,7 +108,7 @@ export default function Resource() {
 
         <h2 className="text-3xl font-semibold mt-10 mb-4"><a href="https://kirillayzenberg.com/contact">Your Connection with Kirill Ayzenberg Starts Here</a></h2>
         <p>
-          Follow <a href="https://kirillayzenberg.com"><strong>Kirk Kirill Ayzenberg</strong></a> today to access authentic insights, software updates, mortgage lending knowledge, and entrepreneurial motivation. Stay connected to grow your business, knowledge, and network.
+          Follow <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg"><strong>Kirk Kirill Ayzenberg</strong></a> today to access authentic insights, software updates, mortgage lending knowledge, and entrepreneurial motivation. Stay connected to grow your business, knowledge, and network.
         </p>
       </main>
     </>
