@@ -25,6 +25,13 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "/nextres-llc-leading-the-way-in-wholesale-mortgage-lending",
+    title: "Nextres LLC: Leading the Way in Wholesale Mortgage Lending",
+    excerpt:
+      "Nextres LLC is a specialized wholesale mortgage lender dedicated to supporting mortgage brokers, credit unions, and banks.",
+    date: "2025-08-15",
+  },
+  {
     slug: "/edscr-llc-kirill-ayzenbergs-innovative-software-company-revolutionizing-retail-mortgage-lending",
     title: "EDSCR LLC: Kirill Ayzenberg’s Innovative Software Company Revolutionizing Retail Mortgage Lending",
     excerpt:

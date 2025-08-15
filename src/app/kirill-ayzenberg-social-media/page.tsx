@@ -69,7 +69,187 @@ export default function socialMediaPage() {
       title: "Kirill Ayzenberg Private Lender (Oracle San Jose)",
       description: "Static website hosted on Oracle Object Storage (San Jose) for Kirill Ayzenberg's private lending business.",
       url: "https://objectstorage.us-sanjose-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-private-lender/o/index.html",
+    },
+
+    
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - DigitalOcean",
+      description: "Static hosted version of Kirill Ayzenberg Mortgage Lender website on DigitalOcean Spaces.",
+      url: "https://nyc3.digitaloceanspaces.com/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - Azure Blob Storage",
+      description: "Mortgage lender profile and resources hosted on Microsoft Azure Blob Storage.",
+      url: "https://kirillayzenberg.blob.core.windows.net/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - Google Cloud Storage",
+      description: "Mortgage lending page hosted on Google Cloud Storage.",
+      url: "https://storage.googleapis.com/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - DreamHost S3",
+      description: "Mortgage lender site hosted via DreamHost S3-compatible storage.",
+      url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - Backblaze B2",
+      description: "Mortgage lender content hosted on Backblaze B2 cloud storage.",
+      url: "https://s3.us-east-005.backblazeb2.com/kirill-ayzenberg-mortgage-lenders/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - Vultr Objects",
+      description: "Mortgage lender content hosted on Vultr Object Storage.",
+      url: "https://ewr1.vultrobjects.com/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - BunnyCDN",
+      description: "Mortgage lender content delivered through BunnyCDN.",
+      url: "https://kirill-ayzenberg-mortgage-lender.b-cdn.net/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - Oracle Cloud",
+      description: "Mortgage lender content hosted on Oracle Cloud Object Storage.",
+      url: "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-mortgage-lender/o/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Mortgage Lender - AWS S3",
+      description: "Mortgage lender content hosted on AWS S3.",
+      url: "https://s3.us-west-1.amazonaws.com/kirill-ayzenberg-mortgage-lender/index.html",
+    },
+
+    
+    {
+      title: "Kirill Ayzenberg Software Company - DigitalOcean",
+      description: "Software company site hosted on DigitalOcean Spaces.",
+      url: "https://nyc3.digitaloceanspaces.com/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - Vultr Objects",
+      description: "Software company page hosted on Vultr Object Storage.",
+      url: "https://ewr1.vultrobjects.com/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - DreamHost S3",
+      description: "Software company profile hosted on DreamHost S3-compatible storage.",
+      url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - Azure Blob Storage",
+      description: "Software company content hosted on Microsoft Azure Blob Storage.",
+      url: "https://kirillayzenberg.blob.core.windows.net/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - Google Cloud",
+      description: "Software company page hosted on Google Cloud Storage.",
+      url: "https://storage.googleapis.com/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - BunnyCDN",
+      description: "Software company content served via BunnyCDN.",
+      url: "https://kirill-ayzenberg-software-company.b-cdn.net/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - AWS S3",
+      description: "Software company site hosted on AWS S3.",
+      url: "https://s3.us-east-1.amazonaws.com/kirill-ayzenberg-software-company/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - Oracle Cloud",
+      description: "Software company site hosted on Oracle Cloud Object Storage.",
+      url: "https://objectstorage.us-ashburn-1.oraclecloud.com/n/idovqmdhl4r3/b/kirill-ayzenberg-software-company/o/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Software Company - Backblaze B2",
+      description: "Software company page hosted on Backblaze B2.",
+      url: "https://s3.us-east-005.backblazeb2.com/kirill-ayzenberg-software-companys/index.html",
+    },
+
+    
+    {
+      title: "Kirill Ayzenberg Nexys LLC - Vultr Objects",
+      description: "Nexys LLC profile hosted on Vultr Object Storage.",
+      url: "https://ewr1.vultrobjects.com/kirill-ayzenberg-nexys-llc/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - DreamHost S3",
+      description: "Nexys LLC site hosted on DreamHost S3-compatible storage.",
+      url: "https://s3.us-east-005.dream.io/kirill-ayzenberg-nexys-llc/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - Azure Blob Storage",
+      description: "Nexys LLC content hosted on Microsoft Azure Blob Storage.",
+      url: "https://kirillayzenberg.blob.core.windows.net/kirill-ayzenberg-nexys-llc/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - Google Cloud",
+      description: "Nexys LLC page hosted on Google Cloud Storage.",
+      url: "https://storage.googleapis.com/kirill-ayzenberg-nexys-llc/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - DigitalOcean",
+      description: "Nexys LLC site hosted on DigitalOcean Spaces.",
+      url: "https://ams3.digitaloceanspaces.com/kirill-ayzenberg-nexys-llc/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC Hub - Backblaze B2",
+      description: "Nexys LLC Hub page hosted on Backblaze B2.",
+      url: "https://s3.us-east-005.backblazeb2.com/kirill-ayzenberg-nexys-llc-hub/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - BunnyCDN",
+      description: "Nexys LLC content delivered via BunnyCDN.",
+      url: "https://kirill-ayzenberg-nexys-llc.b-cdn.net/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg Nexys LLC - AWS S3",
+      description: "Nexys LLC content hosted on AWS S3.",
+      url: "https://s3.us-east-2.amazonaws.com/kirill-ayzenberg-nexys-llc/index.html",
+    },
+
+    
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Azure Blob Storage",
+      description: "DSCR loan page hosted on Microsoft Azure Blob Storage.",
+      url: "https://kirillayzenbergdscrloan.blob.core.windows.net/kirill-ayzenberg-dscr-loan/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Google Cloud",
+      description: "DSCR loan page hosted on Google Cloud Storage.",
+      url: "https://storage.googleapis.com/kirill-ayzenbergdscrloan/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (SGP1)",
+      description: "DSCR loan page hosted on Vultr Object Storage in Singapore region.",
+      url: "https://sgp1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (SJC1)",
+      description: "DSCR loan page hosted on Vultr Object Storage in San Jose region.",
+      url: "https://sjc1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (AMS1)",
+      description: "DSCR loan page hosted on Vultr Object Storage in Amsterdam region.",
+      url: "https://ams1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loans - Backblaze B2",
+      description: "DSCR loans page hosted on Backblaze B2.",
+      url: "https://s3.eu-central-003.backblazeb2.com/kirill-ayzenberg-dscr-loans/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan Mortgage - Backblaze B2",
+      description: "DSCR loan mortgage content hosted on Backblaze B2.",
+      url: "https://s3.ca-east-006.backblazeb2.com/kirill-ayzenberg-dscr-loan-mortgage/index.html",
+    },
+    {
+      title: "Kirill Ayzenberg DSCR Loan - Backblaze B2 (US West)",
+      description: "DSCR loan page hosted on Backblaze B2 US West region.",
+      url: "https://s3.us-west-004.backblazeb2.com/kirill-ayzenberg-dscr-loan/index.html",
     }
+
+
   ];
 
   return (
