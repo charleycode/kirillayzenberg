@@ -212,7 +212,7 @@ export default function MortgagesPage() {
               <li>
                 <span className="font-medium">Application & Underwriting:</span>{" "}
                 Submit full documentation. The lender verifies your info and orders an
-                appraisal.
+                appraisal all through our <a href="https://kirillayzenberg.com/software-company">Loan Origination Software Solutions from Nexys LLC</a>
               </li>
               <li>
                 <span className="font-medium">Closing:</span>{" "}
