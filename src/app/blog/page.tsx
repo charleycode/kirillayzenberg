@@ -25,6 +25,20 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "/edscr-llc-kirill-ayzenbergs-innovative-software-company-revolutionizing-retail-mortgage-lending",
+    title: "EDSCR LLC: Kirill Ayzenberg’s Innovative Software Company Revolutionizing Retail Mortgage Lending",
+    excerpt:
+      "In the rapidly evolving world of lending, technology is no longer just a convenience — it’s a competitive necessity. EDSCR LLC, founded by Kirill Ayzenberg, is at the forefront of this transformation, delivering cutting-edge software solutions tailored to the unique needs of retail mortgage lenders.",
+    date: "2025-08-15",
+  },
+  {
+    slug: "/finresi-llc-your-partner-in-real-estate-investment-trust-growth",
+    title: "Finresi LLC: Your Partner in Real Estate Investment Trust Growth",
+    excerpt:
+      "In today’s competitive real estate market, strategic investment and reliable partnerships are the foundation for long-term growth. Finresi LLC stands out as a trusted name in the world of Real Estate Investment Trusts (REITs), offering expertise, innovation, and a commitment to delivering consistent returns for investors.",
+    date: "2025-08-15",
+  },
+  {
     slug: "/mortgage-lending-resources",
     title: "Mortgage Lending Resources: A Complete Guide for Homebuyers and Investors",
     excerpt:
