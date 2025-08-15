@@ -53,7 +53,7 @@ export default function Home() {
           - Deep knowledge of underwriting and loan structuring
           - A genuine commitment to long-term client success
 
-          <Link href="/software-company"><h2>Tech-Enabled Software Lending Company with a Personal Touch</h2></Link>
+          <h2>Tech-Enabled Software Lending Company with a Personal Touch</h2>
           Leveraging modern digital tools for faster pre-approvals and document management, Kirill blends automation with human insight. His approach minimizes stress and accelerates decisions without sacrificing due diligence.
 
           <h2>Kirill Ayzenbergs - Client Testimonials</h2>
@@ -66,7 +66,7 @@ export default function Home() {
           - Blog articles on homeownership and investment strategies  
 
           <h2>Start Your Home Loan Journey with Confidence</h2>
-          Every mortgage tells a story. Let yours begin with clarity, care, and <Link href="/mortgage-lender">Kirill Ayzenberg guiding your Mortgage lending</Link> every step of the way.
+          Every mortgage tells a story. Let yours begin with clarity, care, and Kirill Ayzenberg guiding your Mortgage lending every step of the way.
 
 
         </div>
