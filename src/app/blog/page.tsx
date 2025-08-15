@@ -53,7 +53,7 @@ export default function BlogIndex() {
       <section className="px-6 md:px-10 lg:px-16 py-12 md:py-16 bg-gray-50 border-b">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-semibold tracking-tight">Kirill Ayzenberg Blog</h1>
-          <h2 className="text-xl md:text-5xl font-semibold tracking-tight">Connect with <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">Kirill Ayzenberg and Find Out More About Us!</a></h2>
+          <h2 className="text-xl md:text-5xl font-semibold tracking-tight">Connect with <a href="https://kirillayzenberg.com">Kirill Ayzenberg and Find Out More About Us!</a></h2>
           <p className="mt-4 text-gray-600 text-base md:text-lg">
             Mortgage lending insights, resources, and guides by Kirill Ayzenberg
           </p>
