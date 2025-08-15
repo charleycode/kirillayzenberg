@@ -84,15 +84,6 @@ function FaqJsonLd() {
 }
 
 export default function MortgagesPage() {
-  const sections = [
-    { id: "what-is-a-mortgage", label: "What is a Mortgage?" },
-    { id: "components", label: "Key Components" },
-    { id: "types", label: "Types of Mortgages" },
-    { id: "process", label: "The Mortgage Process" },
-    { id: "rates", label: "What Affects Your Rate" },
-    { id: "tips", label: "Tips to Secure the Best Mortgage" },
-    { id: "faq", label: "FAQ" },
-  ];
 
   return (
     <main className="min-h-screen bg-white">
@@ -128,22 +119,6 @@ export default function MortgagesPage() {
       </section>
 
       {/* On-page nav */}
-      <nav className="px-6 md:px-10 lg:px-16 py-4 sticky top-0 z-20 bg-white/80 backdrop-blur border-b">
-        <div className="max-w-5xl mx-auto overflow-x-auto">
-          <ul className="flex gap-4 md:gap-6 text-sm">
-            {sections.map((s) => (
-              <li key={s.id}>
-                <a
-                  href={`#${s.id}`}
-                  className="text-gray-700 hover:text-black whitespace-nowrap"
-                >
-                  {s.label}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </nav>
 
       {/* Content */}
       <article className="px-6 md:px-10 lg:px-16 py-10">
