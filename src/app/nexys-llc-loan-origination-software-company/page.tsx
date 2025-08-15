@@ -25,7 +25,7 @@ export default function NexysLLCPage() {
           </p>
           <ul className="list-disc list-inside mt-4 space-y-2">
             <li><strong>Loan Origination Software (LOS)</strong>: Automating and managing the entire lifecycle of loan applications, approvals, underwriting, and funding.</li>
-            <li><strong>Mortgage CRM Integration</strong>: Enhancing client relationship management to improve borrower experiences and retention rates.</li>
+            <li><a href="https://kirillayzenberg.com/mortgage-lender"><strong>Mortgage CRM Integration</strong></a>: Enhancing client relationship management to improve borrower experiences and retention rates.</li>
             <li><strong>Loan Servicing Solutions</strong>: Helping lenders manage post-funding operations with accurate payment tracking and compliance management.</li>
           </ul>
         </section>
