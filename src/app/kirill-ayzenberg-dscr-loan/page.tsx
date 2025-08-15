@@ -63,7 +63,7 @@ export default function KirillAyzenbergDSCRLoan() {
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Apply for a DSCR Loan with Kirill Ayzenberg Today</h2>
         <p className="mb-8">
-          Ready to finance your next investment property with a <strong>DSCR loan</strong>? Contact <strong>Kirill Ayzenberg</strong> today to discuss your goals, review options, and begin the streamlined application process.
+          Ready to finance your next investment property with a <strong>DSCR loan</strong>? Contact <strong>Kirill Ayzenberg</strong> today to discuss your goals, review options, and <a href="https://kirillayzenberg.com/software-company">begin the streamlined application process here At Nexys LLC Origination Software Company.</a>
         </p>
 
         <h3 className="text-2xl font-bold mt-8 mb-2">Contact Kirill Ayzenberg – DSCR Loan Specialist</h3>
