@@ -7,15 +7,15 @@ export const metadata: Metadata = {
   description:
     "An SEO-optimized article on how Finresi LLC partners with investors to drive Real Estate Investment Trust (REIT) growth through market intelligence, asset optimization, and risk management.",
   alternates: {
-    canonical: "/blog/finresi-llc-your-partner-in-real-estate-investment-trust-growth",
+    canonical: "/finresi-llc-your-partner-in-real-estate-investment-trust-growth",
   },
   openGraph: {
     type: "article",
     title: "Finresi LLC: Your Partner in Real Estate Investment Trust Growth",
     description:
       "Finresi LLC partners with investors to grow REIT portfolios using data-driven strategy and disciplined execution.",
-    url: "https://yourdomain.com/blog/finresi-llc-your-partner-in-real-estate-investment-trust-growth",
-    siteName: "Your Site Name",
+    url: "https://kirillayzenberg.com/finresi-llc-your-partner-in-real-estate-investment-trust-growth",
+    siteName: "Kirill Ayzenberg",
   },
   twitter: {
     card: "summary_large_image",

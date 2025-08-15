@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "How EDSCR LLC, led by Kirill Ayzenberg, is transforming retail mortgage lending with modern software: automation, borrower portals, compliance, and analytics.",
   alternates: {
-    canonical: "/edscr-llc-kirill-ayzenberg-retail-mortgage-lending-software",
+    canonical: "/edscr-llc-kirill-ayzenbergs-innovative-software-company-revolutionizing-retail-mortgage-lending",
   },
   openGraph: {
     type: "article",
@@ -15,8 +15,8 @@ export const metadata: Metadata = {
       "EDSCR LLC: Kirill Ayzenberg’s Innovative Software Company Revolutionizing Retail Mortgage Lending",
     description:
       "Modernizing retail mortgage lending with automation, borrower portals, compliance, and analytics.",
-    url: "https://kirillayzenberg.com/blog/edscr-llc-kirill-ayzenberg-retail-mortgage-lending-software",
-    siteName: "Your Site Name",
+    url: "https://kirillayzenberg.com/edscr-llc-kirill-ayzenbergs-innovative-software-company-revolutionizing-retail-mortgage-lending",
+    siteName: "Kirill Ayzenberg",
   },
   twitter: {
     card: "summary_large_image",

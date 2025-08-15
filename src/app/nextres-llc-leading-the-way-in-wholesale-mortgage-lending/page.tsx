@@ -7,15 +7,15 @@ export const metadata: Metadata = {
   description:
     "An in-depth look at how Nextres LLC is driving innovation and growth in wholesale mortgage lending.",
   alternates: {
-    canonical: "/blog/nextres-llc-leading-the-way-in-wholesale-mortgage-lending",
+    canonical: "/nextres-llc-leading-the-way-in-wholesale-mortgage-lending",
   },
   openGraph: {
     type: "article",
     title: "Nextres LLC: Leading the Way in Wholesale Mortgage Lending",
     description:
       "How Nextres LLC is transforming wholesale mortgage lending with strategic partnerships, technology, and expertise.",
-    url: "https://yourdomain.com/blog/nextres-llc-leading-the-way-in-wholesale-mortgage-lending",
-    siteName: "Your Site Name",
+    url: "https://kirillayzenberg.com/nextres-llc-leading-the-way-in-wholesale-mortgage-lending",
+    siteName: "Kirill Ayzenberg",
   },
   twitter: {
     card: "summary_large_image",
