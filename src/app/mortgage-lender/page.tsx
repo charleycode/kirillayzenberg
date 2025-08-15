@@ -17,7 +17,7 @@ export default function MortgageLenderCompanies() {
           Welcome to the official hub for all <a href="https://kirillayzenberg.com/">mortgage lending companies managed by <strong>Kirill Ayzenberg</strong></a>, a trusted mortgage lender known for delivering tailored financing solutions. On this page, you will explore each <strong>mortgage lending company</strong> under his management, the services they provide, and how they can support your real estate goals.
         </p>
 
-        <a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg"><h2 className="text-3xl font-semibold mt-10 mb-4">Who Is Kirill Kirk Ayzenberg?</h2></a>
+        <h2 className="text-3xl font-semibold mt-10 mb-4"><a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">Who Is Kirill Kirk Ayzenberg?</a></h2>
         <p className="mb-8">
           <strong>Kirill Ayzenberg</strong> is a leading <strong>mortgage lender</strong> and entrepreneur who manages multiple mortgage lending companies serving real estate investors, builders, and homeowners nationwide. As a mortgage lender, Kirill Ayzenberg focuses on fast closings, flexible underwriting, and transparent service for his clients.
         </p>
@@ -120,7 +120,7 @@ export default function MortgageLenderCompanies() {
 
         <h3 className="text-2xl font-bold mt-8 mb-2">Contact Kirill Ayzenberg</h3>
         <p className="mb-12">
-          <strong>Email:</strong> kirillayzenberg@company.com<br />
+          <strong>Email:</strong> kirillayzenbergseo@gmail.com<br />
           <strong>Phone:</strong> +1 (657) 330-8857
         </p>
 

@@ -106,7 +106,7 @@ export default function Resource() {
           Explore the software hub page to understand the innovative software companies led by <strong>Kirill Ayzenberg</strong> for private lenders, real estate professionals, and REIT managers.
         </p>
 
-        <h2 className="text-3xl font-semibold mt-10 mb-4">Your Connection with Kirill Ayzenberg Starts Here</h2>
+        <h2 className="text-3xl font-semibold mt-10 mb-4"><a href="https://kirillayzenberg.com/contact">Your Connection with Kirill Ayzenberg Starts Here</a></h2>
         <p>
           Follow <a href="https://kirillayzenberg.com"><strong>Kirk Kirill Ayzenberg</strong></a> today to access authentic insights, software updates, mortgage lending knowledge, and entrepreneurial motivation. Stay connected to grow your business, knowledge, and network.
         </p>

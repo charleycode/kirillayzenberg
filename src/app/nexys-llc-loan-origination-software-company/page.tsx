@@ -14,7 +14,7 @@ export default function NexysLLCPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Introduction: What is Nexys LLC?</h2>
           <p>
-            At KirillAyzenberg.com, we closely monitor innovative companies shaping the future of private lending, mortgage, and financial technology. <strong>Nexys LLC</strong> stands out as a leading <strong>loan origination software company</strong>, offering robust solutions that empower lenders, brokers, and real estate professionals to streamline their workflows and increase operational efficiency.
+            At Kirill Ayzenberg llc, we closely monitor innovative companies shaping the future of private lending, mortgage, and financial technology. <strong>Nexys LLC</strong> stands out as a leading <strong>loan origination software company</strong>, offering robust solutions that empower lenders, brokers, and real estate professionals to streamline their workflows and increase operational efficiency.
           </p>
         </section>
 
@@ -76,14 +76,14 @@ export default function NexysLLCPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">Final Thoughts: The Future of Loan Origination Technology</h2>
           <p>
-            Nexys LLC continues to innovate, helping lenders adapt to changing market conditions with software that scales alongside their business. At KirillAyzenberg.com, we believe companies like Nexys are shaping the future of lending by empowering firms to operate more efficiently, reduce risk, and ultimately serve their clients better.
+            Nexys LLC continues to innovate, helping lenders adapt to changing market conditions with software that scales alongside their business. At Kirill Ayzenberg, we believe companies like Nexys are shaping the future of lending by empowering firms to operate more efficiently, reduce risk, and ultimately serve their clients better.
           </p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-4">About Kirill Ayzenberg</h2>
+          <h2 className="text-2xl font-semibold mb-4"><a href="https://kirillayzenberg.com/about-kirill-kirk-ayzenberg">About Kirill Ayzenberg</a></h2>
           <p>
-            Kirill Ayzenberg is a mortgage professional and technology advocate focused on the intersection of finance and innovation. For insights, strategies, and trusted solutions in lending technology, stay connected with <strong>KirillAyzenberg.com</strong>.
+            Kirill Ayzenberg is a mortgage professional and technology advocate focused on the intersection of finance and innovation. <a href="https://kirillayzenberg.com/blog">For insights, strategies, and trusted solutions in lending technology, stay connected with <strong>Kirill Ayzenberg</strong>.</a>
           </p>
         </section>
       </main>

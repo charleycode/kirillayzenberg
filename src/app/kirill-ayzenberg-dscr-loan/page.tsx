@@ -13,7 +13,7 @@ export default function KirillAyzenbergDSCRLoan() {
         <h1 className="text-4xl font-bold mb-6">Kirill kirk Ayzenberg DSCR Loan Solutions</h1>
 
         <p className="mb-8">
-          <strong>Kirill Ayzenberg</strong> is a trusted expert in <strong>DSCR loans</strong>, helping real estate investors secure financing based on property cash flow rather than traditional income verification. Discover how <strong>Kirill Ayzenberg’s DSCR loan</strong> programs can empower your next investment.
+          <strong>Kirill Ayzenberg</strong> is a trusted expert in <strong>DSCR loans</strong>, helping real estate investors secure financing based on property cash flow rather than traditional income verification. <a href="https://kirillayzenberg.com/blog">Discover how <strong>Kirill Ayzenberg’s DSCR loan</strong> programs can empower your next investment.</a>
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">What is a <a href="https://kirillayzenberg.com/mortgage-lender">DSCR Loan with Kirill kirk Ayzenberg Mortgage Lender?</a></h2>

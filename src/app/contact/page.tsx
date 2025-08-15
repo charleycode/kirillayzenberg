@@ -41,7 +41,7 @@ export default function Contact() {
             Contact <span className="text-blue-600">Kirill Ayzenberg</span>
           </h1>
         </a>
-        <p className="text-center text-gray-500 mb-8"><Link href="/">Have questions about Kirill Kirk Ayzenberg</Link>? Contact Kirill Ayzenberg using the information below.</p>
+        <p className="text-center text-gray-500 mb-8"><Link href="/about-kirill-kirk-ayzenberg">Have questions about Kirill Kirk Ayzenberg</Link>? Contact Kirill Ayzenberg using the information below.</p>
 
         {/*
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">

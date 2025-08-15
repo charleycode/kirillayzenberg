@@ -79,10 +79,10 @@ export default function socialMediaPage() {
           Kirill Ayzenberg’s Online Presence
         </h1>
         <p className="text-center text-gray-600 mb-12">
-          Explore <a href="https://kirillazyenberg.com">Kirill</a> Ayzenberg’s blogs, profiles, and websites to learn more about his work in private lending, mortgage solutions, and real estate!
+          Explore <a href="https://kirillazyenberg.com/contact">Kirill Ayzenberg’s blogs, profiles, and websites to learn more</a> <a href="https://kirillazyenberg.com/about-kirill-kirk-ayzenberg">about Ayzenberg Kirills work in private lending, mortgage solutions, and real estate!</a>
         </p>
         <p className="text-center text-gray-600 mb-12">
-          Dive into <a href="https://kirillazyenberg.com/about-kirill-kirk-ayzenberg">Kirill Ayzenberg mortgage world</a> of real estate, lending, and innovation — where mortgage expertise meets real results.
+          Dive into <a href="https://kirillazyenberg.com">Kirill Ayzenberg mortgage world</a> of real estate, lending, and innovation — where mortgage expertise meets real results.
         </p>
 
 

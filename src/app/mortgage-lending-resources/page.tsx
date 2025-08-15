@@ -96,8 +96,8 @@ export default function MortgagesPage() {
             Understanding Mortgages: A Complete Guide for Homebuyers and Investors
           </h1>
           <p className="mt-4 text-gray-600 text-base md:text-lg">
-            Learn the essentials—loan types, rates, the process, and actionable
-            tips—so you can choose the right mortgage with confidence.
+            <a href="https://kirillayzenberg.com/blog">Learn the essentials—loan types, rates, the process, and actionable
+            tips</a>—so you can choose the right mortgage with confidence.
           </p>
 
           {/* CTA */}
@@ -295,7 +295,7 @@ export default function MortgagesPage() {
             </p>
             <div className="mt-4 flex flex-wrap gap-3">
               <Link
-                href="/"
+                href="/about-kirill-kirk-ayzenberg"
                 className="inline-flex items-center justify-center rounded-xl px-5 py-3 text-white bg-black hover:bg-gray-900 transition"
               >
                 Start a conversation with Ayzenberg Kirill
