@@ -202,8 +202,8 @@ export default function MortgagesPage() {
             <ol className="mt-4 space-y-4">
               <li>
                 <span className="font-medium">Pre-Approval:</span>{" "}
-                Lender reviews your credit, income, assets, and debts to estimate how
-                much you can borrow.
+                <a href="https://kirillayzenberg.com/mortgage-lender">A Mortgage Lender reviews your credit, income, assets, and debts to estimate how
+                much you can borrow.</a>
               </li>
               <li>
                 <span className="font-medium">House Hunting:</span>{" "}

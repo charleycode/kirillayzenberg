@@ -19,7 +19,7 @@ export default function NexysLLCPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4">Who is Nexys LLC?</h2>
+          <h2 className="text-2xl font-semibold mb-4"><a href="https://kirillayzenberg.com/software-company">What is Nexys LLC Loan Origination Software Company?</a></h2>
           <p>
             Founded with a vision to simplify complex lending processes, Nexys LLC specializes in:
           </p>
