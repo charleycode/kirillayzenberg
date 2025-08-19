@@ -219,21 +219,6 @@ export default function socialMediaPage() {
       url: "https://storage.googleapis.com/kirill-ayzenbergdscrloan/index.html",
     },
     {
-      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (SGP1)",
-      description: "DSCR loan page hosted on Vultr Object Storage in Singapore region.",
-      url: "https://sgp1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
-    },
-    {
-      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (SJC1)",
-      description: "DSCR loan page hosted on Vultr Object Storage in San Jose region.",
-      url: "https://sjc1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
-    },
-    {
-      title: "Kirill Ayzenberg DSCR Loan - Vultr Objects (AMS1)",
-      description: "DSCR loan page hosted on Vultr Object Storage in Amsterdam region.",
-      url: "https://ams1.vultrobjects.com/kirill-ayzenberg-dscr-loan/index.html",
-    },
-    {
       title: "Kirill Ayzenberg DSCR Loans - Backblaze B2",
       description: "DSCR loans page hosted on Backblaze B2.",
       url: "https://s3.eu-central-003.backblazeb2.com/kirill-ayzenberg-dscr-loans/index.html",
