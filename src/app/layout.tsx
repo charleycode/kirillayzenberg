@@ -17,7 +17,10 @@ const raleway = Raleway({
 
 export const metadata: Metadata = {
   title: "Kirill Ayzenberg ",
-  description: "Mortgage Lender",
+  description: "Kirill Ayzenberg Mortgage Lender",
+  metadataBase: new URL("https://kirillayzenberg.com"), // <— your HTTPS root
+  // optional: defaults for all pages (can be overridden per page)
+  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({

@@ -4,6 +4,7 @@ import Link from "next/link";
 export const metadata = {
   title: 'Kirill Ayzenberg - Trusted Mortgage Lender - Kirill Ayzenberg LLC',
   description: 'Discover how Kirill Ayzenberg is helping families, first-time buyers, and investors secure smarter mortgage solutions with personalized lending services and expert guidance.',
+  alternates: { canonical: "/" },           // <— canonical for the homepage
 };
 
 
