@@ -1,9 +1,14 @@
 import Head from 'next/head';
 
 export const metadata = {
-    title: 'Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC',
-    description: 'Discover how Kirill Ayzenberg ( Kirk Ayzenberg ) is helping families, first-time buyers, and investors secure smarter mortgage solutions with personalized lending services and expert guidance.',
-  };
+  title: "Kirk Ayzenberg? Kirill Ayzenberg? Who Is Kirk Ayzenberg? - Kirill Ayzenberg LLC",
+  description:
+    "Discover how Kirill Ayzenberg ( Kirk Ayzenberg ) is helping families, first-time buyers, and investors secure smarter mortgage solutions with personalized lending services and expert guidance.",
+  alternates: {
+    canonical: "https://kirillayzenberg.com/about-kirill-kirk-ayzenberg",
+  },
+};
+
   
   
   export default function AboutKirkAyzenbergPage() {
