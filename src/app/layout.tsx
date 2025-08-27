@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   description: "Kirill Ayzenberg Mortgage Lender",
   metadataBase: new URL("https://kirillayzenberg.com"), // <— your HTTPS root
   // optional: defaults for all pages (can be overridden per page)
-  alternates: { canonical: "/" },
 };
 
 export default function RootLayout({
