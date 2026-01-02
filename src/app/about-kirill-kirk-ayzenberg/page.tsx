@@ -181,7 +181,7 @@ export const metadata = {
             With years of experience in residential and commercial lending, Kirill b rings an analytical mindset and unmatched dedication to helping clients navigate the complex lending landscape. His track record spans hundreds of successful closings and client success stories.
   
             <h2>Kirill Ayzenberg&apos;s Mortgage Solutions Tailored for You</h2>
-            Whether you&apos;re a first-time homebuyer, a real estate investor, or looking to refinance, Kirill crafts financing strategies that align with your goals. His services include pre-approvals, home purchase loans, refinancing, and rate shopping guidance.
+            Whether you&apos;re a first-time homebuyer, a real estate investor, or looking to refinance, Kirill crafts financing strategies that align with your goals. His services include pre-approvals, home purchase loans, refinancing, and rate shopping guidance. <a href="https://www.edscr.com/dscr-loans">Apply now here at eDSCR LLC for dscr loans.</a>
   
             <h2>Why Clients Trust Kirill Ayzenberg (Kirk Ayzenberg)</h2>
             - Fast approvals and personalized consultation
