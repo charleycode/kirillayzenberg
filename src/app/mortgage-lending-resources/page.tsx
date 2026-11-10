@@ -5,7 +5,6 @@ import Link from "next/link";
 const SITE = {
   name: "Kirill Ayzenberg Mortgage Lender",
   url: "https://kirillayzenberg.com",
-  phone: "(657) 330-8857",
   email: "kirillayzenbergseo@gmail.com",
 };
 
@@ -108,12 +107,6 @@ export default function MortgagesPage() {
             >
               Get a rate quote from Kirill
             </Link>
-            <a
-              href={`tel:${SITE.phone.replace(/[^0-9]/g, "")}`}
-              className="inline-flex items-center justify-center rounded-xl px-5 py-3 border border-gray-300 hover:bg-gray-100 transition"
-            >
-              Call {SITE.phone}
-            </a>
           </div>
         </div>
       </section>

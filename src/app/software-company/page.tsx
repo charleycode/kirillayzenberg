@@ -98,8 +98,7 @@ export default function SoftwareCompanies() {
 
         <h3 className="text-2xl font-bold mt-8 mb-2">Contact Kirill Ayzenberg</h3>
         <p className="mb-8">
-          <strong>Email:</strong> kirillayzenberg@company.com<br />
-          <strong>Phone:</strong> +1 (657) 330-8857
+          <strong>Email:</strong> kirillayzenberg@company.com
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Explore More</h2>

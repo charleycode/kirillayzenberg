@@ -68,8 +68,7 @@ export default function KirillAyzenbergDSCRLoan() {
 
         <h3 className="text-2xl font-bold mt-8 mb-2">Contact Kirill Ayzenberg – DSCR Loan Specialist</h3>
         <p className="mb-12">
-          <strong>Email:</strong> kirillayzenberg@company.com<br />
-          <strong>Phone:</strong> +1 (657) 330-8857
+          <strong>Email:</strong> kirillayzenberg@company.com
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Your Real Estate Success Starts with a Kirill Ayzenberg DSCR Loan</h2>

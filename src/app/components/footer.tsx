@@ -42,8 +42,8 @@ export default function Nav() {
 
                     {/* Phone Number */}
                     <h3 className="text-2xl mt-10 font-semibold">
-                        <a href="tel:+16573308857" className="text-blue-200 hover:underline">
-                            +1 (657) 330-8857
+                        <a href="tel:+18336394140" className="text-blue-200 hover:underline">
+                            (833) 639-4140
                         </a>
                     </h3>
                     </section>

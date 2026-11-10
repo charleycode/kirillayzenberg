@@ -91,8 +91,7 @@ export default function Resource() {
           For collaborations or business opportunities, contact <strong>Kirill Ayzenberg</strong> at:
         </p>
         <p className="mb-12">
-          <strong>Email:</strong> kirillayzenberg@company.com<br />
-          <strong>Phone:</strong> +1 (657) 330-8857
+          <strong>Email:</strong> kirillayzenberg@company.com
         </p>
 
         <h2 className="text-3xl font-semibold mt-10 mb-4">Explore More About Kirill Ayzenberg</h2>
